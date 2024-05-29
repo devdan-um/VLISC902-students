@@ -1,4 +1,7 @@
 # VLISC902-students
+
+### Instrucciones Generales para clonar el repositorio y agregar una nueva rama 
+
 ```
 $ git clone -b develop https://github.com/devdan-um/VLISC902-students.git
 ```
