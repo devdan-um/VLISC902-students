@@ -7,13 +7,10 @@ crear una nueva rama a partir de la rama de desarrollo, verificar que estan en l
 ```
 $ git branch 
 ```
-Se crea una rama a partir de la rama de desarrollo
+Se crea una rama a partir de la rama de desarrollo y se verifica que la nueva rama creada exista y se este trabajando en ella
 ```
-$ git checkout -b feature/<identificadr_de_tu_cambio> 
-```
-Verificar que la nueva rama creada exista y se este trabajando en ella
-```
-$ git branch 
+$ git checkout -b feature/<identificadr_de_tu_cambio>
+$ git branch  
 ```
 Una vez que se realicen los cambios correspondientes agregan todos los archivos que modificaron y agregaron
 ```
