@@ -28,7 +28,7 @@ public class StudentRestController {
     public ResponseEntity guardado (@RequestBody StudentRequest request){
 
         StudentEntity entity=new StudentEntity();
-        entity.setName(request.getLastName());
+        entity.setName(request.getName());
         entity.setLastName(request.getLastName());
         entity.setCurso(request.getCurso());
 
