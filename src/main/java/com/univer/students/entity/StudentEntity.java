@@ -13,9 +13,41 @@ public class StudentEntity {
     @Column(name="NAME")
     private String name;
 
-    @Column(name="LAST NAME")
+    @Column(name="LAST_NAME")
     private String lastname;
 
+    @Column (name="CURSO")
+    private Integer curso;
 
+    public Integer getCurso() {
+        return curso;
+    }
 
+    public void setCurso(Integer curso) {
+        this.curso = curso;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getLastname() {
+        return lastname;
+    }
+
+    public void setLastname(String lastname) {
+        this.lastname = lastname;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
