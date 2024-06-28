@@ -18,7 +18,7 @@ public class StudentRestController {
     public StudentEntity studiante(@PathVariable String id){
         Optional< StudentEntity> entity=
         this.studentRepository.findById(Integer.parseInt(id));
-        if (entity.isPresent()) {
+        if(entity.isPresent()) {
             return entity.get();
         }else{
             return null;
@@ -29,9 +29,10 @@ public class StudentRestController {
 
         StudentEntity entity=new StudentEntity();
         entity.setName(request.getLastName());
+        entity.setLastName(request.getLastName());
         entity.setCurso(request.getCurso());
 
         this.studentRepository.save(entity);
-        return ResponseEntity.ok( "se guardo de manera correcta");
+        return ResponseEntity.ok( "se guardo exitosamente");
     }
 }

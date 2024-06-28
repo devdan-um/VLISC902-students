@@ -15,7 +15,7 @@ public class StudentEntity {
     private String name;
 
    @Column (name="LAST_NAME")
-  private String lastname;
+  private String lastName;
    @Column (name= "Curso")
    private Integer curso;
 
@@ -27,12 +27,12 @@ public class StudentEntity {
         this.curso = curso;
     }
 
-    public String getLastname() {
-        return lastname;
+    public String getLastName() {
+        return lastName;
     }
 
-    public void setLastname(String lastname) {
-        this.lastname = lastname;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
     public String getName() {
