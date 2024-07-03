@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.Optional;
 
-@RestController
+@RestControlled
 public class StudentRestController {
     @Autowired
     private StudentsRepository studentsRepository;
