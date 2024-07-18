@@ -1,4 +1,4 @@
-package com.univer.students.entity.request;
+package com.univer.students.model.response.entity.request;
 
 public class StudentRequest {
     private String name;

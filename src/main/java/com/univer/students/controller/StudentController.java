@@ -1,7 +1,7 @@
 package com.univer.students.controller;
 
-import com.univer.students.entity.StudentEntity;
-import com.univer.students.entity.request.StudentRequest;
+import com.univer.students.model.response.entity.StudentEntity;
+import com.univer.students.model.response.entity.request.StudentRequest;
 import com.univer.students.repository.StudentsRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

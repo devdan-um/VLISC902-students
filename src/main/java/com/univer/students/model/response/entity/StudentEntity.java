@@ -1,4 +1,4 @@
-package com.univer.students.entity;
+package com.univer.students.model.response.entity;
 
 import jakarta.persistence.*;
 
